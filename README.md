@@ -38,7 +38,9 @@ To avoid issues with chaning dependencies, it is recommended to freeze your depe
 ```
 
 > [!NOTE]
-> In package.json, the tilde (`~`) and caret (`^`) symbols specify version ranges for dependencies, influencing how updates are handled. The tilde (`~`) allows updates to the most recent patch version within a minor version (e.g., `~1.2.3` allows `1.2.x` but not `1.3.0`), while the caret (`^`) allows updates to the most recent minor and patch versions within the same major version (e.g., `^1.2.3` allows `1.x.x` but not `2.0.0`). Using exact versions (e.g., `1.2.3`) ensures that the specified version is always used, preventing unexpected changes from updates.
+> In package.json, the tilde (`~`) and caret (`^`) symbols specify version ranges for dependencies, influencing how updates are handled.  
+> The tilde (`~`) allows updates to the most recent patch version within a minor version (e.g., `~1.2.3` allows `1.2.x` but not `1.3.0`), while the caret (`^`) allows updates to the most recent minor and patch versions within the same major version (e.g., `^1.2.3` allows `1.x.x` but not `2.0.0`).  
+> Using exact versions (e.g., `1.2.3`) ensures that the specified version is always used, preventing unexpected changes from updates.
 
 ## Example
 In this example, we will use the `is-even` library to check if a number is odd. We will modify the library to return `true` for odd numbers instead of even numbers.
