@@ -1,0 +1,11 @@
+diff --git a/node_modules/is-even/index.js b/node_modules/is-even/index.js
+index 832d922..4ab4e9d 100644
+--- a/node_modules/is-even/index.js
++++ b/node_modules/is-even/index.js
+@@ -10,5 +10,5 @@
+ var isOdd = require('is-odd');
+ 
+ module.exports = function isEven(i) {
+-  return !isOdd(i);
++  return isOdd(i);
+ };
