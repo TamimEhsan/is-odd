@@ -38,7 +38,7 @@ jobs:
         run: npx esbuild app.js --bundle --outfile=bundle.js
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.'  
 
